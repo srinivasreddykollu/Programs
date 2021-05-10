@@ -14,9 +14,9 @@ public class ReadingInputsFromUser {
         if(age>0 && age<100) {
             System.out.println("your name is " + name + " and your age is " + age);
         }
-        else {
+        else
             System.out.println("invalid age");
-        }
+
        scanner.close();
     }
 }
