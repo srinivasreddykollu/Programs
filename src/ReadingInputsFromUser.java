@@ -17,6 +17,7 @@ public class ReadingInputsFromUser {
         else {
             System.out.println("invalid age");
         }
+        }
        scanner.close();
     }
 }
