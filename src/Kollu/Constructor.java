@@ -7,6 +7,7 @@ package Kollu;
         System.out.println("hello");
     }
     public  Constructor(){
+         this(5);
         int num1=5;
         System.out.println("constructor is invoked");
     }
