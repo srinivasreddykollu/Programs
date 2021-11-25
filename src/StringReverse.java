@@ -8,6 +8,6 @@ public class StringReverse {
         System.out.println(rev);
     }
     public static void main(String[] args){
-        StringReverse obj=new StringReverse("kollu");
+        StringReverse obj=new StringReverse("srinivas");
     }
 }
