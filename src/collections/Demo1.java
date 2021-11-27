@@ -14,12 +14,13 @@ public class Demo1 {
         obj1.add(8);
         obj1.add(56);
         obj1.add(1,80);
+        Collections.sort(obj1);
 
 
-     //  Iterator i= obj.iterator();
-     //   while(i.hasNext()){
-        //    System.out.println(i.next());
-      //  }
+      Iterator i1= obj1.iterator();
+       while(i1.hasNext()){
+           System.out.println(i1.next());
+        }
            for(Object i : obj){
                System.out.println(i);
            }
